@@ -5,6 +5,7 @@ html,body,.wrap,.box {
 }
 html {
     font-size: 15.625vw;
+    overflow:hidden;
 }
 .wrap {
     background: url(../img/7.jpg) no-repeat center;
