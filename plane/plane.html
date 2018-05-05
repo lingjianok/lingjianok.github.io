@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#plane {
+				margin: 50px auto 0;
+				width: 320px;
+				height: 568px;
+				background: url(img/background.png);
+				position: relative;
+				overflow: hidden;
+			}
+			.score {
+				width: 80px;
+				position: absolute;
+				z-index: 1000;
+				right: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="plane">
+			<span class="score">分数 : <span>0</span></span>
+		</div>
+		<script src="plane.js"></script>
+	</body>
+</html>
